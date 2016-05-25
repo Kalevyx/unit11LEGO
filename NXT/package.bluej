@@ -1,0 +1,25 @@
+#BlueJ package file
+objectbench.height=76
+objectbench.width=676
+package.editor.height=311
+package.editor.width=578
+package.editor.x=720
+package.editor.y=523
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+project.charset=UTF-8
+target1.editor.height=700
+target1.editor.width=903
+target1.editor.x=785
+target1.editor.y=191
+target1.height=50
+target1.name=NXT
+target1.naviview.expanded=true
+target1.showInterface=false
+target1.type=ClassTarget
+target1.typeParameters=
+target1.width=80
+target1.x=70
+target1.y=10
