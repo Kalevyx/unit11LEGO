@@ -6,7 +6,7 @@ public class NXT
     DifferentialPilot pilot;
     UltrasonicSensor distance;
     public NXT(){
-        pilot = new DifferentialPilot(4.4,9.7,Motor.B,Motor.C);
+        pilot = new DifferentialPilot(5.6,12,Motor.B,Motor.C);
         distance = new UltrasonicSensor(SensorPort.S3);
     }
     
@@ -15,13 +15,13 @@ public class NXT
             pilot.rotate(30);
         }
         pilot.rotate(20);
-        pilot.travel(50);
+        pilot.travel(54);
     }
     
     public void travelAroundCircle()
     {
         pilot.rotate(90);
-        pilot.steer(15, 360);
+        pilot.steer(22, 360, false);
     }
     
     public static void main(String[] args){
